@@ -39,42 +39,12 @@ body, input, textarea, button {
 
 .title {
   margin-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .iconsGroup {
   margin-top: 2rem;
-}
-
-.wrapper-card {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.card {
-  border: 1px var(--black);
-  border-radius: 5px;
-  background-color: var(--white);
-  color: var(--black);
-  width: 944px;
-  height: 805px;
-  display: flex;
-  flex-direction: column;
-}
-.row-card {
-  margin-top: 1rem;
-  height: 122px;
-  width: 912px;
-  margin-left:10px;
-  border-bottom: 1px solid #d8d7ce;
-}
-
-.number{
-  font-size: 36px;
-  color: var(--gray-200);
-  display: flex;
-  align-items: start;
-  justify-content: end;
 }
 
 .form {
@@ -100,17 +70,4 @@ input {
 
 .titleForm {
   margin-bottom: 1rem;
-}
-
-@media screen and (max-width: 768px) {
-  .card {
-    border: 1px var(--black);
-    border-radius: 5px;
-    background-color: var(--black);
-    color: var(--white);
-    width: 944px;
-    height: 805px;
-    display: flex;
-    flex-direction: column;
-  }
 }

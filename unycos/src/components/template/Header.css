@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  padding: 20px;
+  justify-content: end;
+}
+
+.header img {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav ul {
+  color: var(--gray-200);
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    background-color: var(--black);
+  }
+
+  .logo {
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: start;
+    background-color: var(--white);
+    flex-direction: column;
+    margin-right: 2rem;
+    height: 100px;
+  }
+
+  .dropdown {
+    column-width: auto;
+  }
+}
