@@ -1,0 +1,25 @@
+.row-card {
+    margin-top: 1rem;
+    height: 122px;
+    width: 912px;
+    margin-left: 10px;
+    border-bottom: 1px solid #d8d7ce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .row-card h3 {
+    margin: 0;
+  }
+  
+  .row-card p {
+    margin-top: 0.5rem;
+    display: none;
+  }
+  
+  .row-card.expanded p {
+    display: block;
+  }
+  

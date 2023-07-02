@@ -1,0 +1,11 @@
+version: '3'
+services:
+  unycos:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9004:5173
+    command: yarn dev --host 0.0.0.0
+    volumes:
+      - .:/app
