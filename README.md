@@ -8,6 +8,7 @@ Descrição curta do projeto.
 Certifique-se de ter instalado em sua máquina:
 
 - Docker
+- Docker Compose
 
 ## Como executar localmente
 
