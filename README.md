@@ -1,6 +1,7 @@
 # FRONT-END-CHALLENGE
 
-Projeto seguindo o figma: https://www.figma.com/file/qYZ9ggj5heUxGs8XvJyOZh/Unyco-Test-Maquetación?type=design&node-id=1-173&mode=design&t=68X3vwxvLSVtCuXe-0.
+Projeto seguindo o figma: https://www.figma.com/file/qYZ9ggj5heUxGs8XvJyOZh/Unyco-Test-Maquetación?type=design&node-id=1-173&mode=design&t=68X3vwxvLSVtCuXe-0
+
 Ideia central de uma landing page
 
 ## Pré-requisitos
