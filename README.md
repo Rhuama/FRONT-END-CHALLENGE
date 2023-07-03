@@ -38,7 +38,7 @@ Certifique-se de ter instalado em sua máquina:
       http://localhost:9004
    ```
 
-Bibliotecas utilizadas
+## Bibliotecas utilizadas
 A seguir estão as bibliotecas utilizadas neste projeto:
 
 - axios: ^1.4.0
