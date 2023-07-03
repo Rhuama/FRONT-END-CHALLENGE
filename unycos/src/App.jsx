@@ -13,7 +13,7 @@ import IconHours from "./assets/icon2.png";
 import IconsGroup from "./assets/iconsgroup.png";
 
 import { useMediaQuery } from "react-responsive";
-import Carousel from "./components/template/Carousel";
+import { Carousel } from "./components/template/Carousel";
 
 export function App() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
@@ -57,7 +57,6 @@ export function App() {
           </div>
 
           {items.length >= 1 && <Carousel items={items} />}
-          {/* {console.log("componente aqui", items)} */}
 
           <h2 className="row col-sm-offset-0 col-xs-offset-3 title">
             CONTENIDO EXCLUSIVO
@@ -66,10 +65,8 @@ export function App() {
             <img src={IconsGroup} />
           </div>
 
-          {/* Componente Card */}
           <Card />
 
-          {/* Componente Form */}
           <h3 className="row col-sm-offset-0 col-xs-offset-3 title">
             OBTÉN MÁS INFORMACiÓN
           </h3>

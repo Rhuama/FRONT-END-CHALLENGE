@@ -23,6 +23,20 @@ export function Card() {
           content={"Mireia, nuestra campeona, te da la bienvenida al curso que te llevará a la cima de la natación. Conocerás su técnica, su entrenamiento y muchas cosas más de la mano de un equipo de profesionales de fama internacional."} 
           title={"Preparación física"}
         />
+        <AccordionItem 
+          id={"08"}
+          content={"Mireia, nuestra campeona, te da la bienvenida al curso que te llevará a la cima de la natación. Conocerás su técnica, su entrenamiento y muchas cosas más de la mano de un equipo de profesionales de fama internacional."} 
+          title={"Nutrición y suplementos"}
+        />
+        <AccordionItem 
+          id={"11"}
+          content={"Mireia, nuestra campeona, te da la bienvenida al curso que te llevará a la cima de la natación. Conocerás su técnica, su entrenamiento y muchas cosas más de la mano de un equipo de profesionales de fama internacional."} 
+          title={"Análisis de competición"}
+        />
+        <div className="row center-sm">
+          <a href="/destaque-curso"><button>Ver programa completo</button></a>
+        </div>
+        
       </>
      
     );

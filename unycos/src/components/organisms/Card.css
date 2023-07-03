@@ -35,6 +35,9 @@
   justify-content: end;
 }
 
-.Hello {
-  background-color: #f0f;
+button {
+  width: 306px;
+  height: 40px;
+  background-color: var(--black);
+  color: var(--white);
 }
