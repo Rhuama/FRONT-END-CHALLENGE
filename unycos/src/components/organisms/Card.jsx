@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import AccordionItem from '../molecules/AccordionItem';
+import { AccordionItem } from '../molecules/AccordionItem';
 import { useMediaQuery } from 'react-responsive';
-import './Card.module.css';
+import './Card.css';
 
 export function Card() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,10 +29,10 @@ export function Card() {
   } 
   else {
     return (
-      <div className="cardDesktop">
+      <>
         <h2 className="row col-xs-offset-3 col-lg-offset-0 title">LESSON PLAN</h2>
         <div className="container-card">
-          <div className="card-desktop">
+          <div className="card">
             <div className="row row-card">
               <div className="col-xs-12 col-sm-2 number">01</div>
               <div className="col-xs-10 col-sm-10">
@@ -84,10 +84,7 @@ export function Card() {
             </div>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }
-
-
-{/*  */}

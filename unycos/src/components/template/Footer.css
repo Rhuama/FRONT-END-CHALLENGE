@@ -15,7 +15,7 @@ footer {
   justify-content: space-evenly;
 }
 
-.border {
+.social-media {
   border-bottom: 1px var(--gray-200);
   margin: 1rem;
 }

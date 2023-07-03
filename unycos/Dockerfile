@@ -10,9 +10,6 @@ COPY package*.json ./
 # Instalar as dependências do projeto
 RUN npm install
 
-# Instalar a biblioteca react-responsive
-RUN npm install react-responsive --save
-
 # Copiar os arquivos do projeto para o diretório de trabalho
 COPY . .
 

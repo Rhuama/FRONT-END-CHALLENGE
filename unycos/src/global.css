@@ -25,16 +25,21 @@ body, input, textarea, button {
 
 .button {
   background-color: var(--yellow-200);
-  margin-top: 2rem;
+  margin-top: 1rem;
   border: 1px var(--yellow-200);
   border-radius: 5px;
   height: 48px;
   width: 23rem;
   color: var(--white);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon {
-  margin-top: 1rem;
+  width: 272px;
+  height: 80px;
 }
 
 .title {
@@ -64,7 +69,6 @@ input {
 }
 
 .input-form {
-  margin-right: 6rem;
   margin-bottom: 1rem;
 }
 

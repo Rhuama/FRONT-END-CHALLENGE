@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './AccordionItem.css';
 
-function AccordionItem({content, title, id}) {
+export function AccordionItem({content, title, id}) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -27,5 +27,3 @@ function AccordionItem({content, title, id}) {
 
   );
 }
-
-export default AccordionItem;
